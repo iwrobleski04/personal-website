@@ -1,0 +1,142 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+/* main nav bar styling */
+#navbar-main {
+    background-color: white !important;
+}
+
+#navbar-main .nav-link {
+    color: #424B54;
+    font-family: "Source Serif 4";
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+#navbar-main .nav-link.active {
+    background-color: #EBCFB2;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#navbar-main .nav-link:hover{
+    background-color: #EBCFB2;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.navbar-brand {
+    color:#7A525C;
+    font-family: "Source Serif 4";
+    font-size: 2rem;
+}
+
+.navbar-brand:hover{
+    color:#7A525C;
+}
+
+/* home page styling */
+#headshot {
+    border: solid 10px #B38D97;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    width: 100%;
+    min-width: 200px;
+    max-width: 280px;
+}
+
+#aboutMe {
+    color: #424B54;
+    font-family: "Source Sans 3";
+    font-size: 1.1rem;
+}
+
+/* resume page side nav bar styling */
+#side-nav {
+    background-color: #B38D97;
+}
+
+#navbar-resume {
+    position: sticky;
+    top: 0;
+}
+
+#navbar-resume .nav-link {
+    font-family: "Source Serif 4";
+    font-size: 1.5vw;
+    color: rgba(255, 255, 255, .5);
+    padding-top: 2vh;
+    padding-left: 1vw;
+}
+
+#navbar-resume .nav-link.active{
+    color: white;
+}
+
+/* resume content styling */
+#resume-nav-brand {
+    color: white;
+}
+
+.resume-section {
+    color: #424B54;
+    font-family: "Source Sans 3";
+}
+
+#name {
+    color: #7A525C;
+}
+
+h1 {
+    color: #B38D97;
+    font-family: "Source Serif 4";
+}
+
+h3 {
+    color: #424B54;
+    font-family: "Source Serif 4";
+}
+
+.subheading {
+    font-size: 1.5rem;
+    font-family: "Source Serif 4";
+    color: #424B54;
+}
+
+.text-primary{
+    color: #D5ACA9 !important;
+}
+
+/* contact page styling */
+
+#contactContainer {
+    height: 60vh;
+}
+
+#contactInfo {
+    font-size: 1.1rem;
+    font-family: "Source Sans 3";
+    color: #424B54;
+    text-align: center;
+}
+
+#contactInfo a {
+    color: #D5ACA9;
+}
+
+.socialMedia {
+    border-radius: 50%;
+    height: 30px;
+    margin: 5px;
+}
+
+/* media query to remove side nav */
+@media only screen and (max-width: 991px){
+
+    #side-nav {
+        display: none
+    }
+
+}
